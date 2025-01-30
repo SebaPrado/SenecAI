@@ -30,8 +30,8 @@ const Home = (props) => {
             <span className="home-text12 Lead">
               <span>
                 Automatiza tareas repetitivas / conecta con tus redes sociales y
-                pagina web / Realiza tareas de forma mas eficiente y competitiva
-                / Incrementa las capacidades de tu equipo.
+                pagina web / realiza tareas de forma mas eficiente y competitiva
+                / incrementa las capacidades de tu equipo.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
@@ -42,9 +42,9 @@ const Home = (props) => {
             </span>
             <div className="home-container12">
               <div className="home-container13">
-                <PrimaryPinkButton button="contact us"></PrimaryPinkButton>
+                <PrimaryPinkButton button="haz tu consulta"></PrimaryPinkButton>
               </div>
-              <OutlineGrayButton button="read more"></OutlineGrayButton>
+              <OutlineGrayButton button="saber mas"></OutlineGrayButton>
             </div>
             {/* <div className="home-container14">
               <img
@@ -114,12 +114,11 @@ const Home = (props) => {
       <section className="home-container15">
         <div className="home-container16">
           <h1 className="home-text15 HeadingOne">
-            <span className="home-text16">From nothing to something</span>
+            <span className="home-text16">Incorpora la Inteligencia Artifical a tus tareas diarias</span>
           </h1>
           <span className="home-text17">
             <span className="home-text18">
-              The highest status people in human history are those that asked
-              for nothing and gave everything
+              Generamos agentes AI segun tus necesidades, a tu medida. Por el mejor precio en el mercado  
             </span>
           </span>
         </div>

@@ -25,7 +25,7 @@ const Header = (props) => {
           </div>
           <div className="header-container2">
             <div className="header-container3">
-              <PrimaryPinkButton button="buy now"></PrimaryPinkButton>
+              <PrimaryPinkButton button="haz tu consulta"></PrimaryPinkButton>
             </div>
             <div data-role="BurgerMenu" className="header-burger-menu">
               <svg viewBox="0 0 1024 1024" className="header-icon1">
