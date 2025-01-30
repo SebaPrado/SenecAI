@@ -10,17 +10,17 @@ const Header = (props) => {
       <nav className="header-nav">
         <div className="header-container1">
           <Link to="/" className="header-navlink1 Large">
-            Soft UI Design System
+            Seneck AI 
           </Link>
           <div className="header-menu1">
             <Link to="/" className="header-navlink2 Large">
-              Home
+              Inicio
             </Link>
             <Link to="/profile" className="header-navlink3 Large">
-              Profile
+              Productos
             </Link>
             <Link to="/coming-soon" className="header-navlink4 Large">
-              Coming Soon
+            Sobre nosotros
             </Link>
           </div>
           <div className="header-container2">

@@ -15,22 +15,23 @@ const Home = (props) => {
   return (
     <div className="home-container10">
       <Helmet>
-        <title>Soft UI o</title>
+        <title>Seneck</title>
         <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
       <Header></Header>
       <div className="home-hero">
         <div className="home-container11">
           <div className="home-card">
-            <h1 className="home-text10 HeadingOne">Agentes AI </h1>
+            <h1 className="home-text10 HeadingOne">Seneck-AI </h1>
             <h1 className="home-text11">
-              Asistentes de Inteligencia Artificial a disposicion para tu negocio. 
+              Asistentes de Inteligencia Artificial a disposicion para tu
+              negocio. 
             </h1>
             <span className="home-text12 Lead">
               <span>
-                Automatiza tareas repetitivas, conecta con tus redes sociales y
-                pagina web. Realiza tareas de forma mas eficiente y competitiva.
-                Incrementa las capacidades de tu equipo.
+                Automatiza tareas repetitivas / conecta con tus redes sociales y
+                pagina web / Realiza tareas de forma mas eficiente y competitiva
+                / Incrementa las capacidades de tu equipo.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
@@ -45,40 +46,69 @@ const Home = (props) => {
               </div>
               <OutlineGrayButton button="read more"></OutlineGrayButton>
             </div>
-            <div className="home-container14">
-              <img alt="image" src="website-click.svg" className="home-imagewebsite" />
+            {/* <div className="home-container14">
+              <img
+                alt="image"
+                src="website-click.svg"
+                className="home-imagewebsite"
+              />
               <img alt="image" src="whatsapp.svg" className="home-image10" />
-              <img alt="image" src="tasks-done.svg" className="home-imagetask" />
+              <img
+                alt="image"
+                src="tasks-done.svg"
+                className="home-imagetask"
+              />
               <img alt="image" src="instagram1.png" className="home-imageig" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      <img alt="image" src="/image4.png" className="home-image13" />
+      <img alt="image" src="/curved5.jpg" className="home-image13" />
       <section className="home-features">
+        {/* public\cube0_openai.svg */}
+        
         <FeatureCard
           text=" Agentes AI entrenados con toda la informacion de tu negocio"
           title="Components"
-          imageSrc="/cube1.svg"
-          newProp="titulo 1 "
+          imageSrc="/cube0_openai.svg"
+          newProp="OpenAi"
         ></FeatureCard>
         <FeatureCard
           text="Define el proposito y la tarea a realizar de tu Agente"
           title="Less Code"
-          imageSrc="/person1.svg"
-          newProp="titulo 2"
+          imageSrc="/calendly.svg"
+          newProp="Calendly"
         ></FeatureCard>
+
         <FeatureCard
           text="Conecta tu Agente AI a tus sistemas de mensajetria .Whatsapp, Facebook, Intagram, tu Website "
           title="Less Code"
-          imageSrc="/rocket1.svg"
-          newProp="titulo 3"
+          imageSrc="/cube3_googlesheets.svg"
+          newProp="Google sheets"
         ></FeatureCard>
         <FeatureCard
           text="This design system is fully supported on any device."
           title="Fully Responsiveee"
-          imageSrc="/credit%20card1.svg"
-          newProp="titulo 4"
+          imageSrc="/cube4.svg"
+          newProp="Paginas web"
+        ></FeatureCard>
+        <FeatureCard
+          text="This design system is fully supported on any device."
+          title="Fully Responsiveee"
+          imageSrc="/cube5.svg"
+          newProp="Instagram"
+        ></FeatureCard>
+        <FeatureCard
+          text="This design system is fully supported on any device."
+          title="Fully Responsiveee"
+          imageSrc="/cube6.svg"
+          newProp="Base de datos"
+        ></FeatureCard>
+        <FeatureCard
+          text="This design system is fully supported on any device."
+          title="Fully Responsiveee"
+          imageSrc="/cube7.svg"
+          newProp="Lista de tareas"
         ></FeatureCard>
       </section>
       <section className="home-container15">

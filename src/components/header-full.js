@@ -10,17 +10,17 @@ const HeaderFull = (props) => {
       <nav className="header-full-nav">
         <div className="header-full-container1">
           <Link to="/" className="header-full-navlink1 Large">
-            Soft UI Design System
+            Senec AI
           </Link>
           <div className="header-full-menu">
             <Link to="/" className="header-full-navlink2 Large">
-              Home
+              Inicio
             </Link>
             <Link to="/profile" className="header-full-navlink3 Large">
-              Profile
+              Productos
             </Link>
             <Link to="/coming-soon" className="header-full-navlink4 Large">
-              Coming Soon
+              Sobre nosotros
             </Link>
           </div>
           <div className="header-full-container2">
