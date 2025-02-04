@@ -29,9 +29,9 @@ const Home = (props) => {
             </h1>
             <span className="home-text12 Lead">
               <span>
-                Automatiza tareas repetitivas / conecta con tus redes sociales y
-                pagina web / realiza tareas de forma mas eficiente y competitiva
-                / incrementa las capacidades de tu equipo.
+                Automatiza tareas repetitivas. Conecta con tus redes sociales y
+                sitio web. Realiza tareas de forma mas eficiente y competitiva. 
+                Interactua con tus trabajadores. Incrementa las capacidades de tu equipo.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
@@ -66,46 +66,52 @@ const Home = (props) => {
       <img alt="image" src="/curved5.jpg" className="home-image13" />
       <section className="home-features">
         {/* public\cube0_openai.svg */}
-        
+                
         <FeatureCard
-          text=" Agentes AI entrenados con toda la informacion de tu negocio"
+          text=" Entrenamos y vinculamos la mayor empresa AI tu negocio"
           title="Components"
           imageSrc="/cube0_openai.svg"
-          newProp="OpenAi"
+          newProp="Asistentes Ai"
         ></FeatureCard>
         <FeatureCard
-          text="Define el proposito y la tarea a realizar de tu Agente"
+          text=" Tu asistente crea y  accede a toda la informacion y tareas, inicia conversaciones diarias con tus trabajadores y clientes. Tu asistente dentro de tu whatsapp. Para ti y para todo tu equipo "
+          title="Components"
+          imageSrc="/cube2_Whatsapp.svg"
+          newProp="Whatsapp"
+        ></FeatureCard>
+        <FeatureCard
+          text=" Conecta tu agente AI a Calendly, y crea y modifica citas. Tu asistente AI se ocupa del inicio de tu embudo de ventas."
           title="Less Code"
           imageSrc="/calendly.svg"
           newProp="Calendly"
         ></FeatureCard>
 
         <FeatureCard
-          text="Conecta tu Agente AI a tus sistemas de mensajetria .Whatsapp, Facebook, Intagram, tu Website "
+          text="Entrenamos a tu asistente con toda la informacion de tu empresa. Pudiendo acceder, crear y modificar tus plantillas. (puedes escribirle por whatsapp y acceder a toda la informacion en un chat humanizado) "
           title="Less Code"
           imageSrc="/cube3_googlesheets.svg"
           newProp="Google sheets"
         ></FeatureCard>
         <FeatureCard
-          text="This design system is fully supported on any device."
+          text="Conecta tu asistente a tu sitio web.  Quien visite el sitio sera asistido 24/7 e invitado a comprar, agendar o dejar sus datos para futuro contacto. "
           title="Fully Responsiveee"
           imageSrc="/cube4.svg"
           newProp="Paginas web"
         ></FeatureCard>
         <FeatureCard
-          text="This design system is fully supported on any device."
+          text="Vincula tu asistente a Instagram, y automatiza tus primer contacto con tus posibles clientes."
           title="Fully Responsiveee"
           imageSrc="/cube5.svg"
           newProp="Instagram"
         ></FeatureCard>
         <FeatureCard
-          text="This design system is fully supported on any device."
+          text="Tu base de datos analizada, modificada, y sujeta a funciones que le asignes a tu agente AI"
           title="Fully Responsiveee"
           imageSrc="/cube6.svg"
           newProp="Base de datos"
         ></FeatureCard>
         <FeatureCard
-          text="This design system is fully supported on any device."
+          text="Crea tus tareas. Asigna el personal a cargo. Define su urgencia. Asigna fechas limite. Elige con que frecuencia tu asistente contactara a tus trabajadores "
           title="Fully Responsiveee"
           imageSrc="/cube7.svg"
           newProp="Lista de tareas"
@@ -114,11 +120,11 @@ const Home = (props) => {
       <section className="home-container15">
         <div className="home-container16">
           <h1 className="home-text15 HeadingOne">
-            <span className="home-text16">Incorpora la Inteligencia Artifical a tus tareas diarias</span>
+            <span className="home-text16">Contanos que funcion o tarea queres automatizar</span>
           </h1>
           <span className="home-text17">
             <span className="home-text18">
-              Generamos agentes AI segun tus necesidades, a tu medida. Por el mejor precio en el mercado  
+              Podemos entrenar agentes y asistentes AI que sepan de tu empresa , tus clientes , tus objetivos , tus funciones diarias. Solamente contactanos y haznos saber tu necesitad. Te presupuestamos sin cargo una solucion AI a tu problema
             </span>
           </span>
         </div>

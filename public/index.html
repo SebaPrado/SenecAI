@@ -152,9 +152,12 @@
         color: #d2d6da;
       }
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@181&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@181&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app"></div>
@@ -162,5 +165,16 @@
       defer
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+
+    <script src="https://website-ai-agent-widget.vercel.app/widget.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        if (window.initAIChat) {
+          window.initAIChat();
+        } else {
+          console.error("initAIChat is not defined!");
+        }
+      });
+    </script>
   </body>
 </html>
