@@ -30,8 +30,9 @@ const Home = (props) => {
             <span className="home-text12 Lead">
               <span>
                 Automatiza tareas repetitivas. Conecta con tus redes sociales y
-                sitio web. Realiza tareas de forma mas eficiente y competitiva. 
-                Interactua con tus trabajadores. Incrementa las capacidades de tu equipo.
+                sitio web. Realiza tareas de forma eficiente y competitiva.
+                Interactua con tus trabajadores. Incrementa las capacidades de
+                tu equipo. Deja de perder tiempo valioso.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
@@ -66,7 +67,7 @@ const Home = (props) => {
       <img alt="image" src="/curved5.jpg" className="home-image13" />
       <section className="home-features">
         {/* public\cube0_openai.svg */}
-                
+
         <FeatureCard
           text=" Entrenamos y vinculamos la mayor empresa AI tu negocio"
           title="Components"
@@ -87,7 +88,7 @@ const Home = (props) => {
         ></FeatureCard>
 
         <FeatureCard
-          text="Entrenamos a tu asistente con toda la informacion de tu empresa. Pudiendo acceder, crear y modificar tus plantillas. (puedes escribirle por whatsapp y acceder a toda la informacion en un chat humanizado) "
+          text="Entrenamos a tu asistente con informacion personalizada. Tu agente accede, crear y modifica plantillas bajo tus ordenes. Y a un chat de distancia "
           title="Less Code"
           imageSrc="/cube3_googlesheets.svg"
           newProp="Google sheets"
@@ -120,11 +121,18 @@ const Home = (props) => {
       <section className="home-container15">
         <div className="home-container16">
           <h1 className="home-text15 HeadingOne">
-            <span className="home-text16">Contanos que funcion o tarea queres automatizar</span>
+            <span className="home-text16">
+              Que funcion o tarea que necesitas automatizar?{" "}
+            </span>
+           
           </h1>
           <span className="home-text17">
             <span className="home-text18">
-              Podemos entrenar agentes y asistentes AI que sepan de tu empresa , tus clientes , tus objetivos , tus funciones diarias. Solamente contactanos y haznos saber tu necesitad. Te presupuestamos sin cargo una solucion AI a tu problema
+              En que podrias ahorrar timepo? Que te es un dolor de cabeza y
+              preferirias delegar ? Podemos entrenar agentes y asistentes AI que
+              sepan todo de tu empresa , tus clientes , tus objetivos , tus
+              funciones diarias. Contactanos y haznos saber tu necesitad. Te
+              presupuestamos sin cargo una solucion AI a tu problema
             </span>
           </span>
         </div>
@@ -137,12 +145,12 @@ const Home = (props) => {
             />
             <span className="home-text19 Small">
               <span className="home-text20">
-                &quot;Over the span of the satellite record, Arctic sea ice has
-                been declining significantly, while sea ice in the Antarctichas
-                increased very slightly&quot;
+                &quot;El tiempo es lo mas preciado y limitado , como para
+                desperdiciarlo no haciendo uso de las herramientas que la AI nos
+                ofrece &quot;
               </span>
               <br></br>
-              <span className="home-text22">-NOAA</span>
+              <span className="home-text22">-Marco Aurelio, 176 a.c.</span>
             </span>
             <div className="home-container19">
               <img
@@ -161,8 +169,7 @@ const Home = (props) => {
             <div className="home-container21">
               <h3 className="HeadingTwo">
                 <span className="home-text24">
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
+                  No te imaginas como podrias incorporar agentes AI ? lee esto:
                 </span>
               </h3>
               <p>

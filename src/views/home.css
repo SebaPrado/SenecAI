@@ -49,21 +49,21 @@
   background-image: linear-gradient(310deg, #4c03b9, #036c29);
   letter-spacing: 1px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 41px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .home-text11 {
   color: var(--dl-color-secondary-700);
-  font-size:33px;
+  font-size:23px;
   font-weight: 700;
   text-align: left;
   margin-bottom: var(--dl-space-space-unitandahalfunit);
 }
 
 .home-text12 {
-  font-size: 23px;
+  font-size: 20px;
   color: var(--dl-color-secondary-600);
   font-weight: 600;
   margin-right: var(--dl-space-space-tripleunit);
