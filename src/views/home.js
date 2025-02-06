@@ -69,7 +69,7 @@ const Home = (props) => {
         {/* public\cube0_openai.svg */}
 
         <FeatureCard
-          text=" Entrenamos y vinculamos la mayor empresa AI tu negocio"
+          text=" Entrenamos y vinculamos asistentes y agentes AI a tu negocio. "
           title="Components"
           imageSrc="/cube0_openai.svg"
           newProp="Asistentes Ai"
@@ -124,15 +124,14 @@ const Home = (props) => {
             <span className="home-text16">
               Que funcion o tarea que necesitas automatizar?{" "}
             </span>
-           
           </h1>
           <span className="home-text17">
             <span className="home-text18">
-              En que podrias ahorrar timepo? Que te es un dolor de cabeza y
-              preferirias delegar ? Podemos entrenar agentes y asistentes AI que
-              sepan todo de tu empresa , tus clientes , tus objetivos , tus
-              funciones diarias. Contactanos y haznos saber tu necesitad. Te
-              presupuestamos sin cargo una solucion AI a tu problema
+              En que queres ahorrar timepo? Que te es un dolor de cabeza? Que
+              querrias delegar? Creamos agentes y asistentes AI que saben todo
+              de tu empresa , tus clientes , tus objetivos , tus funciones
+              diarias. Contanos tu necesitad. Te presupuestamos sin cargo
+              una solucion AI.
             </span>
           </span>
         </div>
